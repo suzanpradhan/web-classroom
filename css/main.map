@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACI,CADH,CACK,SAAS,CAAA;EACP,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,KAAK;CAC1B",
+    "sources": [
+        ".scaffold{.scss"
+    ],
+    "names": [],
+    "file": ".scaffold{.css"
+}

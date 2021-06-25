@@ -1,0 +1,135 @@
+$background-color: #012534;
+$card-color: #01364D;
+$purple-shade: #014B6B;
+$grey: #e1e1e1;
+$white: #ffffff;
+$green-accent: #01DF76;
+
+@font-face {
+  font-family: "GilroyLight";
+  src: url("../fonts/GILROY-LIGHT.OTF");
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/GILROY-EXTRABOLD.OTF");
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  & body {
+    background-color: $background-color;
+  }
+  & .scaffold {
+    display: flex;
+    flex-direction: column;
+    & > .appbar {
+        display: flex;
+        align-items: center;
+        padding: 0px 32px;
+        height: 50px;
+      & > #logo {
+        color: $green-accent;
+        font-family: "GilroyBold";
+        font-size: 18px;
+      }
+    }
+    & .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 50px);
+        & > .login-card{
+            width: min-content;
+            background-color: $card-color;
+            border-radius: 8px;
+            justify-content: center;
+            align-items: center;
+            & > .login-form{
+                display: flex;
+                justify-content: center;
+                padding: 24px 20px;
+                & > .container{
+                    & > #card-header{
+                        font-family: "GilroyLight";
+                        font-size: 20px;
+                        text-align: center;
+                        font-weight: 300;
+                        color: $white;
+
+                        padding-bottom: 14px;
+                    }
+                    & > .form-textfield{
+                        background-color: $background-color;
+                        width: 260px;
+                        outline: none;
+                        font-size: 14px;
+                        padding: 8px 10px;
+                        font-family: "GilroyLight";
+                        border-radius: 5px;
+                        color: $white;
+                        border: none;
+                        margin-bottom: 14px;
+
+                        &::placeholder{
+                            font-family: "GilroyLight";
+                            color: $grey;
+                            font-size: 14px;
+                        }
+                    }
+
+                    & > #forget-password{
+                        font-family: "GilroyLight";
+                        font-size: 13px;
+                        color: $grey;
+                        display: flex;
+                        justify-content: flex-end;
+                        cursor: pointer;
+                        padding-bottom: 16px;
+                    }
+
+                    & > .form-submit{
+                        font-family: "GilroyLight";
+                        font-size: 16px;
+                        width: 260px;
+                        background-color: $green-accent;
+                        outline: none;
+                        padding: 6px 24px;
+                        border: none;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        margin-bottom: 14px;
+                    }
+
+                    & > .signup-navigate{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        & > #dont-account{
+                            font-family: "GilroyLight";
+                            font-size: 13px;
+                            color: $grey;
+                            display: flex;
+                            justify-content: flex-end;
+                            cursor: pointer;
+                        }
+                        & > .navigate-button{
+                            font-family: "GilroyLight";
+                            font-size: 14px;
+                            border: 1px solid $green-accent;
+                            background-color: transparent;
+                            padding: 8px;
+                            color: $white;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+  }
+}

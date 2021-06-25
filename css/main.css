@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "GilroyLight";
+  src: url("../fonts/GILROY-LIGHT.OTF");
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../fonts/GILROY-EXTRABOLD.OTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  background-color: #012534;
+}
+
+* .scaffold {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* .scaffold > .appbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 32px;
+  height: 50px;
+}
+
+* .scaffold > .appbar > #logo {
+  color: #01DF76;
+  font-family: "GilroyBold";
+  font-size: 18px;
+}
+
+* .scaffold .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 50px);
+}
+
+* .scaffold .content > .login-card {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background-color: #01364D;
+  border-radius: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .scaffold .content > .login-card > .login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 24px 20px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > #card-header {
+  font-family: "GilroyLight";
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+  color: #ffffff;
+  padding-bottom: 14px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .form-textfield {
+  background-color: #012534;
+  width: 260px;
+  outline: none;
+  font-size: 14px;
+  padding: 8px 10px;
+  font-family: "GilroyLight";
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 14px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .form-textfield::-webkit-input-placeholder {
+  font-family: "GilroyLight";
+  color: #e1e1e1;
+  font-size: 14px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .form-textfield:-ms-input-placeholder {
+  font-family: "GilroyLight";
+  color: #e1e1e1;
+  font-size: 14px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .form-textfield::-ms-input-placeholder {
+  font-family: "GilroyLight";
+  color: #e1e1e1;
+  font-size: 14px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .form-textfield::placeholder {
+  font-family: "GilroyLight";
+  color: #e1e1e1;
+  font-size: 14px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > #forget-password {
+  font-family: "GilroyLight";
+  font-size: 13px;
+  color: #e1e1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+  padding-bottom: 16px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .form-submit {
+  font-family: "GilroyLight";
+  font-size: 16px;
+  width: 260px;
+  background-color: #01DF76;
+  outline: none;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .signup-navigate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .signup-navigate > #dont-account {
+  font-family: "GilroyLight";
+  font-size: 13px;
+  color: #e1e1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+}
+
+* .scaffold .content > .login-card > .login-form > .container > .signup-navigate > .navigate-button {
+  font-family: "GilroyLight";
+  font-size: 14px;
+  border: 1px solid #01DF76;
+  background-color: transparent;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
